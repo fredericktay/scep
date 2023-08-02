@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micromdm/scep/v2/cryptoutil"
-	"github.com/micromdm/scep/v2/depot"
-	"github.com/micromdm/scep/v2/scep"
+	"github.com/fredericktay/scep/cryptoutil"
+	"github.com/fredericktay/scep/depot"
+	"github.com/fredericktay/scep/scep"
 )
 
 func testParsePKIMessage(t *testing.T, data []byte) *scep.PKIMessage {

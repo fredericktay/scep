@@ -14,11 +14,11 @@ import (
 	"testing"
 	"time"
 
-	challengestore "github.com/micromdm/scep/v2/challenge/bolt"
-	scepdepot "github.com/micromdm/scep/v2/depot"
-	boltdepot "github.com/micromdm/scep/v2/depot/bolt"
-	"github.com/micromdm/scep/v2/scep"
-	scepserver "github.com/micromdm/scep/v2/server"
+	challengestore "github.com/fredericktay/scep/challenge/bolt"
+	scepdepot "github.com/fredericktay/scep/depot"
+	boltdepot "github.com/fredericktay/scep/depot/bolt"
+	"github.com/fredericktay/scep/scep"
+	scepserver "github.com/fredericktay/scep/server"
 
 	"github.com/boltdb/bolt"
 )

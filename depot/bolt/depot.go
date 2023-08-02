@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/micromdm/scep/v2/depot"
+	"github.com/fredericktay/scep/depot"
 
 	"github.com/boltdb/bolt"
 )
